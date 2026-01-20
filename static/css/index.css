@@ -52,7 +52,7 @@ body {
 }
 
 .title.publication-title {
-    font-size: 1.9rem !important;
+    font-size: 2.0rem !important;
 }
 
 .publication-authors {
@@ -94,13 +94,17 @@ body {
 }
 
 .publication-institutions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 0.6rem;
 }
 
 .institution-block {
   display: inline-flex;
   align-items: center;
-  margin-right: 12px;
+  margin-right: 0;
 }
 
 .institution-logo {

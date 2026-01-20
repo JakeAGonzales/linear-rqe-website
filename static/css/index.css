@@ -53,6 +53,7 @@ body {
 
 .publication-authors {
     font-family: 'Google Sans', sans-serif;
+    font-size: 1.1rem;
 }
 
 .publication-venue {
@@ -82,6 +83,16 @@ body {
   display: inline-block;
 }
 
+.abstract-title {
+  display: inline-block;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.publication-institutions {
+  margin-top: 0.6rem;
+}
+
 .institution-block {
   display: inline-flex;
   align-items: center;
@@ -89,7 +100,7 @@ body {
 }
 
 .institution-logo {
-  height: 20px;
+  height: 24px;
   width: auto;
   margin-right: 6px;
 }

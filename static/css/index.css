@@ -49,6 +49,7 @@ body {
 
 .publication-title {
     font-family: 'Google Sans', sans-serif;
+    font-size: 2.3rem;
 }
 
 .publication-authors {
@@ -100,7 +101,7 @@ body {
 }
 
 .institution-logo {
-  height: 32px;
+  height: 42px;
   width: auto;
   margin-right: 6px;
 }

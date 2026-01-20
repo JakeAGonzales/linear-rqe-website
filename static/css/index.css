@@ -82,6 +82,18 @@ body {
   display: inline-block;
 }
 
+.institution-block {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.institution-logo {
+  height: 20px;
+  width: auto;
+  margin-right: 6px;
+}
+
 .publication-banner img {
 }
 
